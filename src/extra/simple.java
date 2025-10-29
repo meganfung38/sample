@@ -4,4 +4,4 @@ public class Simple {
     }
 }
 // size: 7
-// complexity: 0
+// complexity: 0 --> green

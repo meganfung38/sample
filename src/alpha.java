@@ -1,26 +1,36 @@
 public class Alpha {
+
     public static void main(String[] args) {
-        int sum = 0;
-        for (int i = 0; i < 5; i++) {
-            if (i % 2 == 0) {
-                sum += i;
-            } else {
-                for (int j = 0; j < 3; j++) {
-                    if (j == 2) {
-                        sum += j;
+        int x = 0;
+        for (int i = 0; i < 5; i++) {            // 1
+            if (i % 2 == 0) {                    // 2
+                while (x < 10) {                 // 3
+                    x++;
+                    if (x % 3 == 0) {            // 4
+                        for (int j = 0; j < 2; j++) {   // 5
+                            if (j == 1) {        // 6
+                                while (x < 15) { // 7
+                                    x++;
+                                }
+                            }
+                        }
+                    } else if (x % 5 == 0) {     // 8
+                        switch (x) {             // 9
+                            case 5 -> System.out.println("Five");
+                            case 10 -> System.out.println("Ten");
+                            default -> System.out.println("Other");
+                        }
+                    } else if (x % 7 == 0) {     // 10
+                        for (int k = 0; k < 3; k++) {   // 11
+                            if (k == 2) {        // 12
+                                System.out.println("Nested");
+                            }
+                        }
                     }
                 }
             }
         }
-        while (sum < 20) {
-            if (sum % 3 == 0) sum++;
-            else sum += 2;
-        }
-        System.out.println(sum);
     }
 }
-
-
-
-// size: 23
-// complexity: 6
+// size: 36
+// complexity: 12 --> red

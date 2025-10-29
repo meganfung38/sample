@@ -1,4 +1,7 @@
 public class Alpha {
+    // testing for in a comment
+    /* for, while, switch */
+    String test_strings = "for, while, if";
 
     public static void main(String[] args) {
         int x = 0;
@@ -32,5 +35,5 @@ public class Alpha {
         }
     }
 }
-// size: 36
+// size: 38
 // complexity: 12 --> red

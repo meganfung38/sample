@@ -3,5 +3,6 @@ public class Simple {
         System.out.println("Hello, world!");
     }
 }
-// size: 7
+// random
+// size: 8
 // complexity: 0 --> green

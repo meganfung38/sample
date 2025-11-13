@@ -1,0 +1,47 @@
+Animal:
+size= 31
+complexity= 2
+
+Keeper:
+size= 24
+complexity= 2
+
+Zoo:
+size= 19
+complexity= 3
+
+-------------
+
+Abstraction: 0.4
+abstract classes = 2
+total classes= 5
+
+Animal (interface):
+Ca= 1
+Ce= 0
+I= 0
+D= 0.6
+
+Mammal (abstract):
+Ca= 1
+Ce= 1
+I= 0.5
+D= 0.1
+
+Dog:
+Ca= 1
+Ce= 1
+I= 0.5
+D= 0.1
+
+Keeper:
+Ca= 1
+Ce= 1
+I= 0.5
+D= 0.1
+
+Zoo:
+Ca= 0
+Ce= 1
+I= 0
+D= 0.6

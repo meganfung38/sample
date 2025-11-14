@@ -45,3 +45,15 @@ Ca= 0
 Ce= 1
 I= 1
 D= 0.4
+
+TestNested:
+Ca = 1
+Ce = 1
+
+InnerA:
+Ca = 0
+Ca = 1
+
+InnerB:
+Ca = 1
+Ce = 0 
